@@ -55,8 +55,7 @@
             <span>GOODS</span>
         </div>
         <div class="menu-links">
-            <a href="" class="link">Album</a>
-            <a href="" class="link">Goods</a>
+            <a href="" onclick="location.href='/goods'; return false;" class="link">GoodsMall</a>
         </div>
     </nav>
 
