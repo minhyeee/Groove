@@ -7,11 +7,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping
-public class LoginPageController {
+public class MemberController {
 
     @GetMapping(("/login"))
     public String sendLoginPage(Model model) {
         return "goods/loginPage";
     }
+
+    @GetMapping("/signup")
+    public String sendSignUp(Model model) {
+        return "goods/signUpPage";
+    }
+
 
 }

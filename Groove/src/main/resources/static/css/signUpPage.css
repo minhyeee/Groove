@@ -32,7 +32,7 @@ body {
 }
 
 
-.login {
+.sign-up {
     width: 30%;
     height: 70%;
     text-align: center;
@@ -46,13 +46,37 @@ body {
     padding-bottom: 10%;
 }
 
-.id-pw {
+.information {
     display: grid;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
+    border-radius: 3vh;
+    max-height: 60%;
+    overflow-y: auto;
+    box-sizing: border-box;
 }
 
-.id-pw input {
+.information label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.information .label-content {
+    display: flex;
+    align-items: center;
+}
+
+.information span {
+    font-size: 0.8rem;
+}
+
+.information .star {
+    color: #d90000;
+}
+
+.information input {
     width: 20vw;
     height: 5.5vh;
     padding: 3%;
@@ -75,28 +99,8 @@ body {
     font-size: 1.2rem;
 }
 
-.sign-up {
-    margin-top: 7%;
-}
-
-.forgot-pw {
-    margin-top: 1%;
-}
 
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:visited {
-    color: inherit;
-}
-
-a:hover, a:focus, a:active {
-    color: inherit;
-    text-decoration: none;
-}
 
 
 
