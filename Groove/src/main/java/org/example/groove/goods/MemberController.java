@@ -25,9 +25,16 @@ public class MemberController {
     }
 
     @GetMapping("/exchangepw")
-    public String exchagePassword(Model model) {
+    public String exchangePassword(Model model) {
         return "member/exchangePwPage";
     }
+
+    @GetMapping("/exchangeinfo")
+    public String exchangeInfo(Model model) {
+        return "member/exchangeInfoPage";
+    }
+
+
 
 
 
