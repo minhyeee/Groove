@@ -34,7 +34,10 @@ public class MemberController {
         return "member/exchangeInfoPage";
     }
 
-
+    @GetMapping("/mypage")
+    public String myPage(Model model) {
+        return "member/myPage";
+    }
 
 
 

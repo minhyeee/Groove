@@ -1,0 +1,97 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>My Page</title>
+    <link rel="stylesheet" href="/css/myPage.css"></head>
+
+</head>
+<body>
+    <header>
+    </header>
+
+    <div class="container">
+
+
+        <div class="exchange">
+            <div class="exchange-info">
+                <a href="" onclick="location.href='/exchangeinfo'; return false;">
+                    <span>会員情報変更</span>
+                </a>
+            </div>
+            <div class="exchange-pw">
+                <a href="" onclick="location.href='/exchangepw'; return false;">
+                    <span>パスワード変更</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="info-wrapper">
+            <div class="info">
+                <div class="info-pic">
+                    <div class="pic"></div>
+                    <div class="nickname-text">
+                        <span>ニックネーム</span>
+                    </div>
+                </div>
+                <div class="info-etc">
+                    <div class="info-text">
+                        <span class="text">メール</span>
+                        <span>your@email.com</span>
+                    </div>
+                    <div class="info-text">
+                        <span class="text">生年月日</span>
+                        <span>0000.01.01</span>
+                    </div>
+                    <div class="info-text">
+                        <span class="text">性別</span>
+                        <span>女子</span>
+                    </div>
+                    <div class="info-text">
+                        <span class="text">アドレス帳</span>
+                        <span>東京部</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="etc-page">
+                <div>
+                    <div></div>
+                    <span>カート</span>
+                </div>
+                <div>
+                    <div></div>
+                    <span>購入内訳</span>
+                </div>
+                <div>
+                    <div></div>
+                    <span>お気に入り</span>
+                </div>
+                <div>
+                    <div></div>
+                    <span>レビュー</span>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <footer>
+    </footer>
+
+
+</body>
+</html>
