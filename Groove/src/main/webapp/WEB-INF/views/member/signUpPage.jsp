@@ -30,7 +30,7 @@
                     </label>
                     <label>
                         <div>
-                            <span>パスワート</span>
+                            <span>ハスワート</span>
                             <span class="star">*</span>
                         </div>
                         <input name="pw">
@@ -40,13 +40,13 @@
                             <span>パスワード確認</span>
                             <span class="star">*</span>
                         </div>
-                        <input name="pw-check">
+                        <input name="pwCheck">
                     </label>
                     <label>
                         <div>
                             <span>ニックネーム</span>
                         </div>
-                        <input name="nick-name">
+                        <input name="nickName">
                     </label>
                     <div class="date-gender">
                         <label>

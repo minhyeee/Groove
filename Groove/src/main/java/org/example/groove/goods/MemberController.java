@@ -11,20 +11,23 @@ public class MemberController {
 
     @GetMapping(("/login"))
     public String sendLoginPage(Model model) {
-        return "goods/loginPage";
+        return "member/loginPage";
     }
 
     @GetMapping("/signup")
     public String sendSignUp(Model model) {
-        return "goods/signUpPage";
+        return "member/signUpPage";
     }
 
     @GetMapping("/findpw")
     public String sendFindPw(Model model) {
-        return "goods/findPwPage";
+        return "member/findPwPage";
     }
 
-
+    @GetMapping("/exchangepw")
+    public String exchagePassword(Model model) {
+        return "member/exchangePwPage";
+    }
 
 
 

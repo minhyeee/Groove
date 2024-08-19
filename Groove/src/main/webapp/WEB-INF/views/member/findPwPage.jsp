@@ -24,7 +24,7 @@
             </div>
             <form action="">
                 <div class="id">
-                    <input name="id" placeholder="ID">
+                    <input name="id" placeholder="your@email.address">
                 </div>
                 <button class="btn">送信</button>
             </form>

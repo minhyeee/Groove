@@ -33,7 +33,7 @@
             </div>
             <div class="forgot-pw">
                 <a href="" onclick="location.href='/findpw'; return false;">
-                <span>ハスワードをお忘れの方</span>
+                <span>ハスワートをお忘れの方</span>
                 </a>
             </div>
             <div class="login-etc">
