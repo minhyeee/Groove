@@ -24,14 +24,14 @@ public class MemberController {
         return "member/findPwPage";
     }
 
-    @GetMapping("/exchangepw")
-    public String exchangePassword(Model model) {
-        return "member/exchangePwPage";
+    @GetMapping("/changepw")
+    public String changePassword(Model model) {
+        return "member/changePwPage";
     }
 
-    @GetMapping("/exchangeinfo")
-    public String exchangeInfo(Model model) {
-        return "member/exchangeInfoPage";
+    @GetMapping("/changeinfo")
+    public String changeInfo(Model model) {
+        return "member/changeInfoPage";
     }
 
     @GetMapping("/mypage")

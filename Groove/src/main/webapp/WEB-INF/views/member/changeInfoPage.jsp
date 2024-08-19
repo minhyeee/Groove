@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>会員情報変更</title>
-  <link rel="stylesheet" href="/css/exchangeInfoPage.css"></head>
+  <link rel="stylesheet" href="/css/changeInfoPage.css"></head>
 
 
 <body>
@@ -15,7 +15,7 @@
 
   <div class="background">
 
-    <div class="exchange-info">
+    <div class="change-info">
       <div class="title">
         <span>会員情報変更</span>
       </div>

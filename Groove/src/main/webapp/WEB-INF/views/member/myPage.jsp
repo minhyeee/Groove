@@ -12,14 +12,14 @@
     <div class="container">
 
 
-        <div class="exchange">
-            <div class="exchange-info">
-                <a href="" onclick="location.href='/exchangeinfo'; return false;">
+        <div class="change">
+            <div class="change-info">
+                <a href="" onclick="location.href='/changeinfo'; return false;">
                     <span>会員情報変更</span>
                 </a>
             </div>
-            <div class="exchange-pw">
-                <a href="" onclick="location.href='/exchangepw'; return false;">
+            <div class="change-pw">
+                <a href="" onclick="location.href='/changepw'; return false;">
                     <span>パスワード変更</span>
                 </a>
             </div>

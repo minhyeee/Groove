@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>パスワード変更</title>
-    <link rel="stylesheet" href="/css/exchangePwPage.css"></head>
+    <link rel="stylesheet" href="/css/changePwPage.css"></head>
 
 
 <body>
@@ -15,7 +15,7 @@
 
     <div class="background">
 
-        <div class="exchange-pw">
+        <div class="change-pw">
             <div class="title">
                 <span>パスワード変更</span>
             </div>
