@@ -52,6 +52,11 @@
                     <button class="btn">変更する</button>
                 </div>
             </form>
+            <div class="go-to-mypage">
+                <a href="" onclick="location.href='/mypage'; return false;">
+                    <span>MyPageに戻る</span>
+                </a>
+            </div>
         </div>
 
 

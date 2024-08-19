@@ -41,7 +41,7 @@ body {
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding-top: 10%;
 }
 
@@ -72,6 +72,7 @@ body {
     width: 20vw;
     height: 5.5vh;
     margin-top: 2%;
+    margin-bottom: 2%;
     border: 0.3vh solid rgba(69, 69, 69, 0.7);
     border-radius: 2vh;
     outline: none;
@@ -83,6 +84,11 @@ body {
 .go-to-login {
     margin-top: 7%;
 }
+.sign-up {
+    margin-top: 1%;
+}
+
+
 
 
 a {

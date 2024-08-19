@@ -41,7 +41,7 @@ body {
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding-top: 10%;
     padding-bottom: 10%;
 }
@@ -118,6 +118,7 @@ input[type="date"] {
     width: 20vw;
     height: 5.5vh;
     margin-top: 2%;
+    margin-bottom: 2%;
     border: 0.3vh solid rgba(69, 69, 69, 0.7);
     border-radius: 2vh;
     outline: none;
@@ -125,6 +126,14 @@ input[type="date"] {
     color: rgba(255, 255, 255, 0.7);
     font-size: 1.2rem;
 }
+
+.go-to-mypage {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
 
 a {
     text-decoration: none;
