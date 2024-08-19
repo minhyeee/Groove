@@ -27,7 +27,9 @@
                 <button class="btn">Login</button>
             </form>
             <div class="sign-up">
-                <a href="" onclick="location.href='/signup'; return false;"><span>新規登録</span></a>
+                <a href="" onclick="location.href='/signup'; return false;">
+                    <span>新規登録</span>
+                </a>
             </div>
             <div class="forgot-pw">
                 <span>パスワードをお忘れの方</span>
