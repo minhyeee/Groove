@@ -19,5 +19,13 @@ public class MemberController {
         return "goods/signUpPage";
     }
 
+    @GetMapping("/findpw")
+    public String sendFindPw(Model model) {
+        return "goods/findPwPage";
+    }
+
+
+
+
 
 }

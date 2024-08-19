@@ -32,7 +32,9 @@
                 </a>
             </div>
             <div class="forgot-pw">
-                <span>パスワードをお忘れの方</span>
+                <a href="" onclick="location.href='/findpw'; return false;">
+                <span>ハスワードをお忘れの方</span>
+                </a>
             </div>
             <div class="login-etc">
             </div>
