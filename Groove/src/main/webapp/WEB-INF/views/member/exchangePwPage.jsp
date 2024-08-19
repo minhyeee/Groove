@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Sign up</title>
+    <title>パスワード変更</title>
     <link rel="stylesheet" href="/css/exchangePwPage.css"></head>
 
 
@@ -30,7 +30,7 @@
                     </label>
                     <label>
                         <div>
-                            <span>現在ハスワード</span>
+                            <span>現在ハスワート</span>
                             <span class="star">*</span>
                         </div>
                         <input name="pw">
@@ -45,6 +45,7 @@
                     <label>
                         <div>
                             <span>新しいパスワード確認</span>
+                            <span class="star">*</span>
                         </div>
                         <input name="newPwCheck">
                     </label>
