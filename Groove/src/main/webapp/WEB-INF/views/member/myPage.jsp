@@ -55,24 +55,31 @@
         </div>
 
             <div class="etc-page">
-                <div>
-                    <div></div>
+                <div class="etc">
+                    <div class="etc-pic">
+                        <img src="/img/icon/shopping_cart.png" />
+                    </div>
                     <span>カート</span>
                 </div>
-                <div>
-                    <div></div>
+                <div class="etc">
+                    <div class="etc-pic">
+                        <img src="/img/icon/fact_check.png" />
+                    </div>
                     <span>購入内訳</span>
                 </div>
-                <div>
-                    <div></div>
+                <div class="etc">
+                    <div class="etc-pic">
+                        <img src="/img/icon/favorite.png" />
+                    </div>
                     <span>お気に入り</span>
                 </div>
-                <div>
-                    <div></div>
+                <div class="etc">
+                    <div class="etc-pic">
+                        <img src="/img/icon/speaker_notes.png" />
+                    </div>
                     <span>レビュー</span>
                 </div>
             </div>
-
 
 
 

@@ -83,28 +83,40 @@ body {
 
 .change {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 3%;
+    margin-left: 33%;
 }
 
-.change-info {
+.change-info, .change-pw {
     width: 10vw;
     height: 5vh;
     background-color: rgba(234, 233, 233, 0.7);
     border-radius: 3vh;
     text-align: center;
     margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.etc-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.change-pw {
-    width: 10vw;
-    height: 5vh;
-    background-color: rgba(234, 233, 233, 0.7);
-    border-radius: 3vh;
+.etc {
     text-align: center;
-    margin: 1%;
+    margin: 3% 5%;
 }
 
+.etc-pic img {
+    width: 5vw;
+    height: 10vh;
+    margin-bottom: 10%;
+}
 
 
 
