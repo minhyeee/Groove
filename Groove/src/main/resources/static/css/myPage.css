@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 55vw;
+    height: 55vh;
+    background-color: rgba(234, 233, 233, 0.7);
+    border-radius: 3vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.info-pic {
+    width: 15vw;
+    height: 40vh;
+    margin: 4.8% 3%;
+    padding: 2% 4.5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 0.2rem #c8c8c8;
+}
+
+.pic {
+    width: 15vw;
+    height: 26vh;
+    background-image: url(/img/icon/account_circle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.nickname-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #8c8c8c;
+}
+
+.info-etc {
+    width: 30vw;
+    height: 40vh;
+    margin: 6.8% 3%;
+    display: grid;
+    justify-content: left;
+}
+
+.info-text {
+    max-width: 100%;
+    display: grid;
+    justify-content: left;
+    margin-bottom: 15%;
+}
+
+.text {
+    color: #8c8c8c;
+    font-size: 1.2rem;
+
+}
+
+.change {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 33%;
+}
+
+.change-info, .change-pw {
+    width: 10vw;
+    height: 5vh;
+    background-color: rgba(234, 233, 233, 0.7);
+    border-radius: 3vh;
+    text-align: center;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etc-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etc {
+    text-align: center;
+    margin: 3% 5%;
+}
+
+.etc-pic img {
+    width: 5vw;
+    height: 10vh;
+    margin-bottom: 10%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
+}

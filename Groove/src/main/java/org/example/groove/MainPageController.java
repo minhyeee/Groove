@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MainPageController {
 
-    @GetMapping("/Groove")
+    @GetMapping("/groove")
     public String mainPage() {
         return "mainPage";
     }

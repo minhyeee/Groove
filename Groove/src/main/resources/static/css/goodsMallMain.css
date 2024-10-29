@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/*배너*/
+.main-banner {
+    width: 83%;
+    height: 80%;
+    box-sizing: border-box;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*베스트 아이템*/
+.best-item {
+    width: 100%;
+    height: 60%;
+}
+
+.best-item-title {
+    padding-top: 7%;
+    padding-bottom: 1%;
+    padding-left: 9%;
+    font-size: 2rem;
+}
+
+.items {
+    width: 85%;
+    height: 80%;
+    text-align: center;
+}
+
+.items img {
+    width: 85%;
+    height: auto;
+}
+
+
+/*뉴아이템*/
+.new-item {
+    width: 100%;
+    height: 60%;
+}
+
+.new-item-title {
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 9%;
+    font-size: 2rem;
+}
+
+
+
+
