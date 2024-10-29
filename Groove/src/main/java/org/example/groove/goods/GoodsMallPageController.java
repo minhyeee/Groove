@@ -10,9 +10,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping
 public class GoodsMallPageController {
 
-    @GetMapping(("/goods"))
+    @GetMapping("/goods")
     public String sendGoodsMallPage(Model model) {
-        return "goods/goodsMall";
+        return "goods/goodsMallPage";
+    }
+
+    @GetMapping("/item")
+    public String sendItemDetailPage(Model model) {
+        return "goods/itemDetailPage";
     }
 
 }

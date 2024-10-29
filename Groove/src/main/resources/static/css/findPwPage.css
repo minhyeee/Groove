@@ -13,9 +13,6 @@ body {
 .container {
     width: 100vw;
     height: 100vh;
-    font-family: "Almarai", sans-serif;
-    font-weight: 700;
-    font-style: normal;
     overflow: hidden;
 }
 
